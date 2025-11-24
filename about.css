@@ -1,0 +1,87 @@
+body {
+    padding: 0 5%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+nav {
+    font-family: 'Segoe UI';
+    padding-top: 20px;
+}
+
+nav a {
+    text-decoration: None;
+    color: rgb(76, 68, 68);
+    margin: 10px;
+}
+
+.name {
+    font-family: "Permanent Marker", cursive;
+    font-size: 40px;
+    width: 100px;
+}
+
+.subscribe {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+
+.me {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10%;
+    gap: 40px;
+}
+
+.intro {
+    width: 60%;
+}
+
+.intro h1 {
+    font-family: "Shadows Into Light", cursive;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.intro p {
+    font-family: "Schoolbell", cursive;
+    font-size: 22px;
+}
+
+.image {
+    width: 40%;
+}
+
+img {
+    width: 100%;
+    border-radius: 35px;
+    max-width: 300px;
+}
+
+blockquote {
+    margin: 0px;
+    border-left: 5px gray solid;
+    background-color: rgb(238, 246, 253);
+    font-style: italic;
+    font-family: "IBM Plex Mono", monospace;
+    padding: 10px;
+}
+
+footer {
+    margin: 30px auto;
+    padding: 40px;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+    text-align: center;
+    font-family: 'Segoe UI';
+    color: rgb(76, 68, 68);
+}
